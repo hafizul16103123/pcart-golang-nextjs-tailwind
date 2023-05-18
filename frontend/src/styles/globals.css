@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active-tap2 {
+    @apply underline underline-offset-8 text-siteColor ;
+  }
+  .active-tap {
+    @apply aria-selected:text-siteColor aria-selected:border-b-2;
+  }
+}
+
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --siteColor: #1d84ea;
+    --siteSecondaryColor: #fcb941;
+    --text-gray-500: #797070;
+  }
